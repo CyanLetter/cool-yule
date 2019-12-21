@@ -271,6 +271,7 @@ window.onload = function() {
 	loadAssets();
 
 	document.body.addEventListener("click", function(e) {
+		document.getElementById("overlay").classList.add("open");
 		document.getElementById("music").play();
 	});
 }
